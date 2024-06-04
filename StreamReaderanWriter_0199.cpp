@@ -9,3 +9,10 @@ int main() {
 
 	//membuka file dalam mode menulis.
 	ofstream outfile;
+
+	//menunjuk kesebuah nama file
+	outfile.open("contohfile.txt");
+
+	cout << ">= menulis filee, \'q\' untuk keluar" << endl;
+
+	
